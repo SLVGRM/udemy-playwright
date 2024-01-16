@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/SLVGRM/PlayWrightTests#readme",
   "dependencies": {
+    "@playwright/test": "^1.40.1",
     "prettier": "^3.2.2"
   }
 }
