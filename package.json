@@ -1,0 +1,22 @@
+{
+  "name": "udemy-playwright",
+  "version": "1.0.0",
+  "description": "Automated software testing with PlayWright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SLVGRM/PlayWrightTests.git"
+  },
+  "author": "LVV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SLVGRM/PlayWrightTests/issues"
+  },
+  "homepage": "https://github.com/SLVGRM/PlayWrightTests#readme",
+  "dependencies": {
+    "prettier": "^3.2.2"
+  }
+}
