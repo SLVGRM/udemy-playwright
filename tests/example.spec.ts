@@ -1,7 +1,9 @@
 import { test, expect } from "@playwright/test";
 
-test("Simple basic test", async ({ page }) => {
-    await page.goto("https://example.com/")
-    const pageTitle = await page.locator('h1')
-    await expect(pageTitle).toContainText('Example Domain')
+test("Clicking on elements", async ({page}) => {
+    await page.goto("https://normativ.kontur.ru/")
+    await page.click("[data-tid='TopBarLogin']")
+    await page.fill("[data-tid='i-login'] input", "Iam97@tester.ru")
+    await page.fill("input#password", "123123")
+    await page.click("[data-tid='Button__root']")
 })
